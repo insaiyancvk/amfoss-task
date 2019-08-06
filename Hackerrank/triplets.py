@@ -12,7 +12,7 @@ for j in range (3):
     b.append(m)
 
 for i in range (len(a)):
-        if((b[i]>100 or b[i]<1) and (a[i]>100 or a[i]<1):
+        if((b[i]>100 or b[i]<1) or (a[i]>100 or a[i]<1)):
             print("Invalid") 
         else:
            if(a[i]>b[i]):
