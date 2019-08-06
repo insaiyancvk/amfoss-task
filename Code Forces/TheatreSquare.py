@@ -8,4 +8,7 @@ a=float(input("Enter length of the flagstone : "))
 
 t = (math.ceil(n/a))*(math.ceil(m/a))
 
-print(t)
+if((n<1 or n>(math.pow(10,9))) and (m<1 or m>(math.pow(10,9))) and (a<1 or a>(math.pow(10,9)))):
+    print("Invalid input") 
+else:
+    print(t)
