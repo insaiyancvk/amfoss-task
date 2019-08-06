@@ -12,10 +12,13 @@ for j in range (3):
     b.append(m)
 
 for i in range (len(a)):
-        if(a[i]>b[i]):
-            c=c+1
-        else :
-            if(a[i]<b[i]):
+        if((b[i]>100 or b[i]<1) and (a[i]>100 or a[i]<1):
+            print("Invalid") 
+        else:
+           if(a[i]>b[i]):
+             c=c+1
+           else :
+              if(a[i]<b[i]):
                 d=d+1
 
 print(c,d)
