@@ -1,5 +1,5 @@
 n = int(input("Enter the number of words you want to enter : "))
-if(n<1 and n>100):
+if(n<1 or n>100):
    print("invalid input") 
 else:
    w = []
