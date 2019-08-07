@@ -1,2 +1,1 @@
-# amfoss-tasks
- 
+Starred all the amFOSS repositries.
