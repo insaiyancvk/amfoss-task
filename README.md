@@ -1,3 +1,3 @@
-<h1>The folders called Hacker rank and code forces contain the python programs.<br>
+<h2>The folders called Hacker rank and code forces contain the python programs.<br>
 Each folder contains 5 programs.
-</h1>
+</h2>
