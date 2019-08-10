@@ -1,4 +1,4 @@
-Create a .png file in the folder you store the code.
-Name the .png file as captcha.
-so the file name would look like 'captcha.png'.
-And the code calculates the binary arithmetic expression.
+<p>Create a '.png' file in the folder you stored the code.<br>
+Name the '.png' file as captcha.<br>
+so the picture name should look like 'captcha.png'.<br>
+And the code calculates the binary arithmetic expression.<br></p>
