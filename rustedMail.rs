@@ -19,7 +19,7 @@ fn main()
     stdin().read_line(&mut mail).expect("error: unable to read user input");
 
 
-	if Regex::new(r"^[a-zA-Z0-9]+@[a-z]{2,8}[.]?[a-z]*").unwrap().is_match(&mut mail) == true
+	if Regex::new(r"^[a-zA-Z0-9]+@[a-z][.]?[a-z]*").unwrap().is_match(&mut mail) == true
 	{
 
 	    println!("The E-Mail entered is valid");
