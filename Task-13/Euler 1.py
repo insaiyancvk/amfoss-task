@@ -1,23 +1,12 @@
-def multiples(n):
-    a=[]
-    s=0
-    for i in range(n):
-        if i%3==0 or i%5==0:
-            a.append(i)
-    l=len(a)
-    for i in range(l):
-        s=s+a[i]
-    return s
+def mult(n):
+    return sum(n,3) + sum(n,5) - sum(n,15)
 
+def sum(n,k):
+    d = n//k
+    return k * (d*(d+1)) // 2
 
-def main():
-    s=[]
-    t=int(input())
-    if t>=1 or t<=(10^5):
-        for i in range(t):
-            n=int(input())
-            if n>=1 or n<=(10^9):
-                s.append(multiples(n))
-        for i in range(len(s)):
-                print(s[i])
-main()
+if __name__=='__main__':
+    t=int(input().strip())
+    for i in range(t):
+        n=int(input().strip())
+        print(mult(n-1))
